@@ -1,1 +1,24 @@
+MongoDB is backend DB stroing a non sql type 
+In localHost DB is hosted on the 27017 port.
+usually in the app.js file DB is installed <>> npm i mongoose>,, 
+>>constant mongoose=require ("mongoose")
+>>mongoose.connect("mongodb://locolhost:27017//todolistDB", {useNewUrlParser: true });
 
+Mongoose Schema - 
+const <schemName>{     (const itemName+{})
+  <fieldName>: <FiledDataType>,   (ex ; name : string)
+}
+
+
+Mongoose DB Model 
+const = ,ongoose.model (
+<"SingularCollectionName">,
+<schemaName>
+)
+
+Ex - const Item = mongoose.model("Item", itemSchema(from above));
+
+
+
+For more related to mongoose ,, check on the Mogoosejs.com,,
+you will get many mongoose schema, model etc,, yo can directly pick from there ,, and use it 
