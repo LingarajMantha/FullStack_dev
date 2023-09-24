@@ -1,1 +1,17 @@
+Before doing any project in the Backend - 
+Create 2 folders - > frontend and Backend 
+In frontEnd > create --.gitignore and .READme file 
 
+in Backend folder - 
+>>npm init -y
+will add the package.json file (in this below description - key - type , value "module")
+
+>>npm i express nodemon (creates the package-lock.json file and starts the express framework)
+"mian": "index.js" 
+"scripts":
+  "starts":"node index.js"
+  "dev";"nodemon index.js"
+
+
+Under node modules - 
+create index.js file   (main file for the backend logic ,, where the all the framework, DB are initiated and api are called )
