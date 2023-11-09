@@ -10,3 +10,5 @@ only that will change, not the whole page
 ->React js is view layer of MVC - (model view controller)
 
 
+Topics to cover in the React JS - > 
+  
