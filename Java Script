@@ -1,1 +1,30 @@
+in JS is not comipler its a Interpreter
+
+JS - Basic 
+------------
+Word vd Key word 
+Word - words no meaning in the JS , but the Keyword holds some value in JS 
+word - anything like mobile , run intensity
+key word - > where, for , char, function, if, else, var, constant, 
+
+
+Variables and Constants
+---------------------------
+-the values that store soething , and can be changed when we want, 
+weight can be changed after some time, temeprature, speed of car
+
+-Constants -> our lives i.e 1 , sun in earth is  a constant. etc
+-let-> from let we can  
+
+
+hoisting ->
+------------
+console.log(a);
+var a//declaration = 18 //initilization; 
+in the above example , the value of a is prinited as undefined not //error, but in ither lanuages we get erreor , called hoisting.
+
+still we can print the value undefined not error   this is called Hoisting , same we can use for the Function.
+-we can use a  variable before the value assiging 
+defn - variable and function are hoisted which there declaration is moved on the top of code.
+
 
